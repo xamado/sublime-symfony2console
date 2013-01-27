@@ -1,0 +1,47 @@
+[
+    {
+        "caption": "Symfony2 Console cache:clear (prod)",
+        "command": "symfony_console_simple",
+        "args": {
+            "command": "cache:clear"
+        }
+    },
+    
+    {
+        "caption": "Symfony2 Console doctrine:schema:create",
+        "command": "symfony_console_simple",
+        "args": {
+            "command": "doctrine:schema:create"
+        }
+    },  
+    {
+        "caption": "Symfony2 Console doctrine:schema:update",
+        "command": "symfony_console_simple",
+        "args": {
+            "command": "doctrine:schema:update --force"
+        }
+    },
+    {
+        "caption": "Symfony2 Console doctrine:schema:drop",
+        "command": "symfony_console_simple",
+        "args": {
+            "command": "doctrine:schema:drop --force"
+        }
+    },
+
+    {
+        "caption": "Symfony2 Console router:debug",
+        "command": "symfony_console_simple",
+        "args": {
+            "command": "router:debug"
+        }
+    },
+
+    {
+        "caption": "Symfony2 Console generate:bundle",
+        "command": "symfony_console_generate_bundle",
+        "args": {
+            "command": "generate:bundle --no-interaction --no-ansi"
+        }
+    }
+]
